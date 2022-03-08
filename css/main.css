@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    color: white;
+    background-color: #7900FF;
+    height: 100%;
+}
+
+.my-panel-lateral {
+    width: 25%;
+    min-width: 200px;
+    height: 150%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    padding:20px;
+    box-sizing:border-box;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(19.4px);
+    -webkit-backdrop-filter: blur(19.4px);
+}
+.my-panel-lateral-bg {
+    width: 25%;
+    min-width: 200px;
+    height: 150%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    padding:20px;
+    box-sizing:border-box;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(19.4px);
+    -webkit-backdrop-filter: blur(19.4px);
+}
+.my-panel-lateral-bg:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(19.4px);
+    -webkit-backdrop-filter: blur(19.4px);
+}
+
+.my-main-box {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    height: 100%;
+}
+
+.my-search-icon {
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.my-small-text {
+    font-size: small;
+}
+
+.my-small-light-text {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.my-large-bold-text {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    color:pink;
+}
+
+.right {
+    position: absolute !important;
+    right: 0;
+}
